@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		84D6249E2B6DCC4F00A803FD /* MenuAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6249D2B6DCC4F00A803FD /* MenuAppApp.swift */; };
-		84D624A02B6DCC4F00A803FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6249F2B6DCC4F00A803FD /* ContentView.swift */; };
+		84D624A02B6DCC4F00A803FD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6249F2B6DCC4F00A803FD /* MenuView.swift */; };
 		84D624A22B6DCC5700A803FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D624A12B6DCC5700A803FD /* Assets.xcassets */; };
 		84D624A62B6DCC5700A803FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D624A52B6DCC5700A803FD /* Preview Assets.xcassets */; };
+		84D624AF2B6DCEE800A803FD /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D624AE2B6DCEE800A803FD /* MenuItem.swift */; };
+		84D624B12B6DD5B300A803FD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D624B02B6DD5B300A803FD /* DataService.swift */; };
+		84D624B32B6DD7F000A803FD /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D624B22B6DD7F000A803FD /* MenuListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84D6249A2B6DCC4F00A803FD /* MenuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D6249D2B6DCC4F00A803FD /* MenuAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAppApp.swift; sourceTree = "<group>"; };
-		84D6249F2B6DCC4F00A803FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84D6249F2B6DCC4F00A803FD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		84D624A12B6DCC5700A803FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D624A32B6DCC5700A803FD /* MenuApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuApp.entitlements; sourceTree = "<group>"; };
 		84D624A52B6DCC5700A803FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84D624AE2B6DCEE800A803FD /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		84D624B02B6DD5B300A803FD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		84D624B22B6DD7F000A803FD /* MenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				84D6249D2B6DCC4F00A803FD /* MenuAppApp.swift */,
-				84D6249F2B6DCC4F00A803FD /* ContentView.swift */,
+				84D6249F2B6DCC4F00A803FD /* MenuView.swift */,
+				84D624B22B6DD7F000A803FD /* MenuListRow.swift */,
+				84D624AE2B6DCEE800A803FD /* MenuItem.swift */,
+				84D624B02B6DD5B300A803FD /* DataService.swift */,
 				84D624A12B6DCC5700A803FD /* Assets.xcassets */,
 				84D624A32B6DCC5700A803FD /* MenuApp.entitlements */,
 				84D624A42B6DCC5700A803FD /* Preview Content */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D624A02B6DCC4F00A803FD /* ContentView.swift in Sources */,
+				84D624AF2B6DCEE800A803FD /* MenuItem.swift in Sources */,
+				84D624A02B6DCC4F00A803FD /* MenuView.swift in Sources */,
 				84D6249E2B6DCC4F00A803FD /* MenuAppApp.swift in Sources */,
+				84D624B32B6DD7F000A803FD /* MenuListRow.swift in Sources */,
+				84D624B12B6DD5B300A803FD /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
